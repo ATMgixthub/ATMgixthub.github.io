@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    /* font-size: 1.5rem; */
-}
 body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Times New Roman', Times, serif; */
@@ -20,7 +17,7 @@ body{
     /* max-width: 360px; */ 
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 0.3125em;
+    padding: 0 0.625em;
     /* border: 1px solid dodgerblue; */
     /* border-bottom: none; */
 }
@@ -152,7 +149,7 @@ video{
 .contact p{
     width: 100%;
     border-radius: 0.3125em;
-    padding: 0.1875em 0.3125em;
+    padding: 0.3125em;
     text-align: center;
     background: #405ffe;
     color: #fff;
