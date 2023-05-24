@@ -166,6 +166,7 @@ video{
 
 .contact p:hover{
     background: #000;
+    cursor: pointer;
 }
 
 /* Best use */
