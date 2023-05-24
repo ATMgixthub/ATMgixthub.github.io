@@ -31,6 +31,8 @@
     <meta name="robots" content="index, follow">
     <title>Property For Sale</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg">
+    <link rel="apple-touch-icon" href="images/favicon.jpg">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -339,7 +341,7 @@
         const shortPhotos = [7, 9, 10, 11, 13, 14, 15, 16, 17, 18];
         const mediumSizedPhotos = [3, 4, 5, 6, 8, 12];
         const scrollBar = document.querySelector('.swiper-scrollbar');
-        
+
         function setScrollbarPosition(slide){
             const value = Number(slide.dataset.photo);
             if(slide == swiper.slides[swiper.activeIndex]){
