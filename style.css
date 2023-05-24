@@ -13,6 +13,11 @@ body{
     background: #f5f6f7;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .container{
     /* max-width: 360px; */ 
     max-width: 1000px;
